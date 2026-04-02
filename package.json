@@ -1,0 +1,29 @@
+{
+  "name": "login-api-example",
+  "version": "1.0.0",
+  "description": "Secure login API with rate limiting, CAPTCHA, and JWT authentication",
+  "main": "login-api.js",
+  "scripts": {
+    "start": "node login-api.js",
+    "dev": "nodemon login-api.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "api",
+    "authentication",
+    "jwt",
+    "bcrypt",
+    "express",
+    "security",
+    "rate-limiting"
+  ],
+  "author": "Learning Example",
+  "license": "MIT"
+}
